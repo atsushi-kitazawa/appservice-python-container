@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h3>USER LIST</h3>
+    <ul>
+    {% for rec in users %}
+        <li>{{ rec.id }} : {{ rec.name }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
