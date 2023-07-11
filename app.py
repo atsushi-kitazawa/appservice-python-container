@@ -34,7 +34,7 @@ def users():
 
     # Close connection.
     conn.close()
-    return render_template('users.html', title='Flask pgsql', users=ds)
+    return render_template('users.html', title='test page', users=ds)
 
 
 if __name__ == "__main__":
